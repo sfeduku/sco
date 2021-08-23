@@ -11,6 +11,7 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
+exit 1
 fi
 mkdir /etc/v2ray
 mkdir /var/lib/premium-script;
