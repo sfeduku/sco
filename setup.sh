@@ -11,9 +11,7 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
-else
 echo -e "${green}Permission Accepted...${NC}"
-fi
 mkdir /etc/v2ray
 mkdir /var/lib/premium-script;
 clear
